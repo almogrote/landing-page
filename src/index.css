@@ -1,0 +1,10 @@
+/*todos los títulos usan Roboto pero con dos pesos diferentes, bold y medium*/
+h1, h2, h3 {
+    font-family: "Roboto";
+}
+
+/*todos los párrafos usan Roboto light 300*/
+p {
+    font-family: "Roboto";
+    font-weight: 300;
+}
