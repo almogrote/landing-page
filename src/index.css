@@ -6,6 +6,7 @@
 .full-screen-img {
     background-image: url("./assets/images/imagen\ inicio\ landing.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .big-title {
@@ -14,7 +15,18 @@
 }
 
 .big-subtitle {
-    margin-top: -1.5%;
     font-size: 250%;
     text-shadow: 4px 4px 7px rgb(31, 31, 31);
+}
+
+.initial-nav {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 11%;
+    margin-left: 70%;
+}
+
+a.initial-links {
+    
+    color: white;
 }
