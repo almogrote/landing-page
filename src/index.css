@@ -1,3 +1,5 @@
+@import "../node_modules/aos/dist/aos.css";
+
 .shadow-image {
   box-shadow: 5px 5px 10px #666;
 }
@@ -9,7 +11,7 @@
 }
 
 .big-title {
-  font-size: 450%;
+  font-size: 500%;
   text-shadow: 4px 4px 7px rgb(31, 31, 31);
   line-height: 1;
 }
@@ -28,3 +30,20 @@
 a.initial-links {
   color: white;
 }
+
+@keyframes separator-width {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 152%;
+    }
+}
+
+.initial-hr {
+    background-color: transparent;
+    width: 0;
+    border-bottom: 5px dotted white;
+    animation: separator-width 1.5s ease-out forwards;
+}
+
