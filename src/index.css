@@ -1,9 +1,12 @@
+/*aos animation library importation*/
 @import "../node_modules/aos/dist/aos.css";
 
+/*shadow images*/
 .shadow-image {
   box-shadow: 5px 5px 10px #666;
 }
 
+/*classes of the initial section of the landing*/
 .full-screen-img {
   background-image: url("./assets/images/imagen\ inicio\ landing.png");
   background-size: cover;
@@ -29,6 +32,12 @@
 
 a.initial-links {
   color: white;
+  text-shadow: 4px 4px 7px rgb(31, 31, 31);
+}
+
+a.initial-links:hover {
+  color: rgb(255, 194, 194);
+  text-shadow: 6px 6px 7px rgb(31, 31, 31);
 }
 
 @keyframes separator-width {
