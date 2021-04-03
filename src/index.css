@@ -1,5 +1,6 @@
 /*aos animation library importation*/
 @import "../node_modules/aos/dist/aos.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 /*shadow images*/
 .shadow-image {
@@ -8,7 +9,7 @@
 
 /*classes of the initial section of the landing*/
 .full-screen-img {
-  background-image: url("./assets/images/imagen\ inicio\ landing.png");
+  background-image: url("./assets/images/imagen\ inicio\ landing\ 3.png");
   background-size: cover;
   background-attachment: fixed;
 }
