@@ -1,5 +1,7 @@
 /*aos animation library importation*/
 @import "../node_modules/aos/dist/aos.css";
+/*aos font
+awesome library importation*/
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 /*shadow images*/
@@ -8,10 +10,22 @@
 }
 
 /*classes of the initial section of the landing*/
-.full-screen-img {
+.full-screen-img-initial {
   background-image: url("./assets/images/imagen\ inicio\ landing\ 3.png");
   background-size: cover;
   background-attachment: fixed;
+}
+
+.full-screen-img-contact {
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+   url("./assets/images/contact-image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 
 .big-title {
@@ -56,4 +70,22 @@ a.initial-links:hover {
     border-bottom: 5px dotted white;
     animation: separator-width 1.5s ease-out forwards;
 }
+
+.section-hr {
+  background-color: transparent;
+  width: 95%;
+  border-bottom: 5px dotted rgb(187, 187, 187);
+}
+
+.resize-image {
+  width: 100%;
+  max-width: 350px;
+}
+
+.resize-image-jeringa {
+  width: 100%;
+  max-width: 320px;
+}
+
+
 
