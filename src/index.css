@@ -5,15 +5,11 @@
 awesome library importation */
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
-<<<<<<< HEAD
 html {
   scroll-behavior: smooth;
 }
 
 /*shadow images*/
-=======
-/* shadow images */
->>>>>>> 49776dc3784b7bd6204b7bdf701d57a351f24761
 .shadow-image {
   box-shadow: 5px 5px 10px #666;
 }
