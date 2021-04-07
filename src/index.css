@@ -4,6 +4,10 @@
 awesome library importation*/
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*shadow images*/
 .shadow-image {
   box-shadow: 5px 5px 10px #666;
@@ -81,6 +85,12 @@ a.initial-links:hover {
   width: 100%;
   max-width: 350px;
 }
+
+.resize-image-section-nav {
+  width: 100%;
+  max-width: 281px;
+}
+
 
 .resize-image-jeringa {
   width: 100%;
