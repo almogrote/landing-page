@@ -1,15 +1,16 @@
-/*aos animation library importation*/
+/* aos animation library importation */
 @import "../node_modules/aos/dist/aos.css";
-/*aos font
-awesome library importation*/
+
+/* aos font
+awesome library importation */
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
-/*shadow images*/
+/* shadow images */
 .shadow-image {
   box-shadow: 5px 5px 10px #666;
 }
 
-/*classes of the initial section of the landing*/
+/* classes of the initial section of the landing */
 .full-screen-img-initial {
   background-image: url("./assets/images/imagen\ inicio\ landing\ 3.png");
   background-size: cover;
@@ -18,14 +19,13 @@ awesome library importation*/
 
 .full-screen-img-contact {
   background-image:
-  linear-gradient(
+    linear-gradient(
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
     ),
-   url("./assets/images/contact-image.jpg");
+    url("./assets/images/contact-image.jpg");
   background-size: cover;
   background-attachment: fixed;
-  
 }
 
 .big-title {
@@ -56,19 +56,20 @@ a.initial-links:hover {
 }
 
 @keyframes separator-width {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 152%;
-    }
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 152%;
+  }
 }
 
 .initial-hr {
-    background-color: transparent;
-    width: 0;
-    border-bottom: 5px dotted white;
-    animation: separator-width 1.5s ease-out forwards;
+  background-color: transparent;
+  width: 0;
+  border-bottom: 5px dotted white;
+  animation: separator-width 1.5s ease-out forwards;
 }
 
 .section-hr {
@@ -86,6 +87,3 @@ a.initial-links:hover {
   width: 100%;
   max-width: 320px;
 }
-
-
-
