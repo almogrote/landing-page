@@ -1,34 +1,18 @@
 /* aos animation library importation */
 @import "../node_modules/aos/dist/aos.css";
 
-/* aos font
-awesome library importation */
+/* aos fontawesome library importation */
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
+/* smooth effect for the scroll links */
 html {
   scroll-behavior: smooth;
 }
 
-/*shadow images*/
-.shadow-image {
-  box-shadow: 5px 5px 10px #666;
-}
-
-/* classes of the initial section of the landing */
+/* initial section of the landing */
 .full-screen-img-initial {
   background-color: black;
   background-image: url("./assets/images/imagen-inicio-landing.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.full-screen-img-contact {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("./assets/images/contact-image.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -83,6 +67,7 @@ a.initial-links:hover {
   border-bottom: 5px dotted rgb(187, 187, 187);
 }
 
+/* resize for some images*/
 .resize-image {
   width: 100%;
   max-width: 350px;
@@ -93,8 +78,24 @@ a.initial-links:hover {
   max-width: 281px;
 }
 
-
 .resize-image-jeringa {
   width: 100%;
   max-width: 320px;
+}
+
+/* contact section */
+.full-screen-img-contact {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./assets/images/contact-image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* footer */
+.logo-footer {
+  opacity: 0.6;
 }

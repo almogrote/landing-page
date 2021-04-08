@@ -1,14 +1,14 @@
 @charset "utf-8";
 
-//variables principales
+//main imports
 $family-sans-serif: "Roboto", sans-serif;
 $family-secondary: "Merienda";
 
-//tipografías
+//tipographies
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
-//importación de módulos
+//modules imports
 @import "../../node_modules/bulma/bulma.sass";
 
 
