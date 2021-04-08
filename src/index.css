@@ -16,6 +16,7 @@ html {
 
 /* classes of the initial section of the landing */
 .full-screen-img-initial {
+  background-color: black;
   background-image: url("./assets/images/imagen-inicio-landing.jpg");
   background-size: cover;
   background-attachment: fixed;
