@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="./sass/bulma.scss">
   <link rel="stylesheet" href="./index.css">
   <script type="module" src="./index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("YOUR_USER_ID");
+   })();
+  </script> 
 </head>
 
 <body>
@@ -88,43 +94,43 @@
           </div>
         </div>
         <!--store presentation images with text-->
-        <div class="columns mx-5 mb-4">
-          <div class="column pr-6">
+        <div class="columns mx-3 mb-4">
+          <div class="column mx-5">
             <h2 class="is-size-3 has-text-weight-medium has-text-centered mb-3">Variedades</h2>
             <figure data-aos="zoom-in" data-aos-duration="1500" class="image is-4by3">
-              <img src="./assets/images/seta-presentacion.png">
+              <img src="./assets/images/icono-seta.svg" class="icons p-5">
             </figure>
-            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4">
+            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4 ml-3">
               Disponemos de un gran catálogo de variedades de todos
               los continentes. Te podemos asesorar según tus conocimientos y gustos.
             </p>
           </div>
-          <div class="column">
+          <div class="column mx-3">
             <h2 class="is-size-3 has-text-weight-medium has-text-centered mb-3">Utensilios</h2>
-            <figure data-aos="zoom-in" data-aos-duration="1500" class="image is-4by3 ">
-              <img src="./assets/images/tools-presentacion.png" class="p-3">
+            <figure data-aos="zoom-in" data-aos-duration="1500" class="image is-4by3">
+              <img src="./assets/images/icono-herramientas.svg" class="icons p-5">
             </figure>
-            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4">
+            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4 ml-3">
               Podrás encontrar todo lo necesario para el cultivo incluyendo 
               kits con todo lo necesario: esporas, sustratos, etc.
             </p>
           </div>
-          <div class="column pl-6">
+          <div class="column mx-3">
             <h2 class="is-size-3 has-text-weight-medium has-text-centered mb-3">Guías de cultivo</h2>
             <figure data-aos="zoom-in" data-aos-duration="1500" class="image is-4by3">
-              <img src="./assets/images/manual-presentacion.png" class="p-5">
+              <img src="./assets/images/icono-guía-cultivo.svg" class="icons p-5">
             </figure>
-            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4">
+            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4 ml-3">
               En nuestros servicios incluímos guías de cultivo detalladas 
               para cada variedad con la compra de cualquier producto.
             </p>
           </div>
-          <div class="column pl-6">
+          <div class="column mx-3">
             <h2 class="is-size-3 has-text-weight-medium has-text-centered mb-3">Soporte</h2>
             <figure data-aos="zoom-in" data-aos-duration="1500" class="image is-4by3">
-              <img src="./assets/images/support-presentacion.png" class="p-5 px-6">
+              <img src="./assets/images/icono-contacta.svg" class="icons pt-5 p-5">
             </figure>
-            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4">
+            <p data-aos="zoom-in" data-aos-duration="1500" class="mt-4 ml-3">
               Nos apasiona que la gente descubra este mundo de las esporas, 
               ¡no dudes en preguntarnos cualquier duda y en mostranos como
               avanza tu cultivo!.
@@ -144,7 +150,7 @@
           <div class="column pl-6">
             <h2 class="is-size-4 has-text-weight-medium has-text-centered">Comienza con nuestros kits</h2>
             <figure data-aos="zoom-in" data-aos-duration="1500" class="image">
-              <img src="./assets/images/producto_kit.jpg" class="resize-image-section-nav p-6 ml-5">
+              <a class="section-nav-link" href="#kits-cultivo"><img src="./assets/images/producto_kit.jpg" class="resize-image-section-nav p-6 ml-5"></a>
             </figure>
             <p class="ml-3">
               Variedades y guía básica para comenzar con nuestros kits de cultivo, desde las especies más baratas
@@ -155,7 +161,7 @@
           <div class="column is-offset-1">
             <h2 class="is-size-4 has-text-weight-medium has-text-centered">Prepara tu propio cultivo</h2>
             <figure data-aos="zoom-in" data-aos-duration="1500" class="image">
-              <img src="./assets/images/sustrato-inoculante-section-nav.jfif">
+              <a class="section-nav-link" href="#cultivo"><img src="./assets/images/sustrato-inoculante-section-nav.jfif"></a>
             </figure>
             <p class="ml-5">
               Crea tu propio cultivo desde 0 con nuestros productos y la guía de preparación que incluimos
@@ -165,7 +171,7 @@
           <div class="column is-offset-1 pr-6">
             <h2 class="is-size-4 has-text-weight-medium has-text-centered mb-6">Contacta con nosotros</h2>
             <figure data-aos="zoom-in" data-aos-duration="1500" class="image is-4by3 pb-2 mb-5">
-              <img src="./assets/images/imagen-contacta-equipo.jfif" class="resize-image-section-nav pl-2 ml-5">
+              <a class="section-nav-link" href="#contacto"><img src="./assets/images/imagen-contacta-equipo.jfif" class="resize-image-section-nav pl-2 ml-5"></a>
             </figure>
             <p class="ml-5">
               Nuestro equipo lleva años profundizando y disfrutando del mundo Fungi y nos encantaría poder ayudar,
@@ -306,32 +312,16 @@
           <div class="field">
             <label class="label has-text-white">Nombre</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Escribe tu nombre">
+              <input class="input" type="text" name="user_name" placeholder="Escribe tu nombre">
             </div>
-          </div>
-        </div>
-        
-        <div class="column is-3">
-          <div class="field">
-            <label class="label has-text-white">Usuario</label>
-            <div class="control has-icons-left has-icons-right">
-              <input class="input is-success" type="text" placeholder="Escribe tu usuario" value="">
-              <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
-              </span>
-            </div>
-            <p class="help is-success">This username is available</p>
           </div>
         </div>
 
-        <div class="column is-offset-3 is-3">
+        <div class="column is-3">
           <div class="field">
             <label class="label has-text-white">Email</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-danger" type="email" placeholder="Escribe tu email" value="">
+              <input class="input is-danger" type="email" name="user_email" placeholder="Escribe tu email" value="">
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
               </span>
@@ -343,12 +333,15 @@
           </div>
         </div>
 
-        <div class="column is-3">
+        <div class="column is-3"> 
+        </div>
+
+        <div class="is-offset-3 column is-3">
           <div class="field">
             <label class="label has-text-white">Motivo</label>
             <div class="control">
               <div class="select">
-                <select>
+                <select name="motive">
                   <option>Pedir presupuesto</option>
                   <option>Información</option>
                   <option>Seguimiento de cultivos</option>
@@ -363,7 +356,7 @@
           <div class="field">
             <label class="label has-text-white">Mensage</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Texto"></textarea>
+              <textarea class="textarea" name="menssage" placeholder="Texto"></textarea>
             </div>
           </div>
         </div>

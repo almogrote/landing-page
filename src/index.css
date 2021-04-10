@@ -83,6 +83,19 @@ a.initial-links:hover {
   max-width: 320px;
 }
 
+.icons {
+  opacity: 0.5;
+}
+
+.section-nav-link img {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.section-nav-link:hover img {
+    opacity: 1;  
+}
+
 /* contact section */
 .full-screen-img-contact {
   background-image:
