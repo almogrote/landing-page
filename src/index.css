@@ -1,29 +1,18 @@
 /* aos animation library importation */
 @import "../node_modules/aos/dist/aos.css";
 
-/* aos font
-awesome library importation */
+/* aos fontawesome library importation */
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
-/* shadow images */
-.shadow-image {
-  box-shadow: 5px 5px 10px #666;
+/* smooth effect for the scroll links */
+html {
+  scroll-behavior: smooth;
 }
 
-/* classes of the initial section of the landing */
+/* initial section of the landing */
 .full-screen-img-initial {
-  background-image: url("./assets/images/imagen-inicio-landing-3.png");
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.full-screen-img-contact {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("./assets/images/contact-image.jpg");
+  background-color: black;
+  background-image: url("./assets/images/imagen-inicio-landing.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -74,16 +63,67 @@ a.initial-links:hover {
 
 .section-hr {
   background-color: transparent;
-  width: 95%;
+  width: 93%;
   border-bottom: 5px dotted rgb(187, 187, 187);
 }
 
+/* resize for some images*/
 .resize-image {
   width: 100%;
   max-width: 350px;
 }
 
+.resize-image-section-nav {
+  width: 100%;
+  max-width: 281px;
+}
+
 .resize-image-jeringa {
   width: 100%;
   max-width: 320px;
+}
+
+.icons {
+  opacity: 0.5;
+}
+
+.section-nav-link img {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.section-nav-link:hover img {
+    opacity: 1;  
+}
+
+/* contact section */
+.full-screen-img-contact {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./assets/images/contact-image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* footer */
+.logo-footer {
+  opacity: 0.6;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .logo-mobile {
+    margin-right: 16%;
+  }
+
+  .initial-nav {
+    margin-right: 2%;
+  }
+
+  .arrow {
+   align-content: center ;
+  }
 }
