@@ -116,15 +116,28 @@ a.initial-links:hover {
 /* media queries */
 @media screen and (max-width: 768px) {
   .logo-mobile {
-    margin-right: 16%;
+    margin-top: 20% !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-bottom: 0 !important;
+    max-width: 90% !important;
+  }
+
+  .title-mobile {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
   }
 
   .initial-nav {
-    margin-right: 2%;
+    margin: auto !important;
   }
 
   .arrow {
-    align-content: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .initial-hr {
