@@ -67,7 +67,7 @@ a.initial-links:hover {
   border-bottom: 5px dotted rgb(187, 187, 187);
 }
 
-/* resize for some images*/
+/* resize for some images */
 .resize-image {
   width: 100%;
   max-width: 350px;
@@ -93,7 +93,7 @@ a.initial-links:hover {
 }
 
 .section-nav-link:hover img {
-    opacity: 1;  
+  opacity: 1;
 }
 
 /* contact section */
@@ -124,6 +124,11 @@ a.initial-links:hover {
   }
 
   .arrow {
-   align-content: center ;
+    align-content: center;
+  }
+
+  .initial-hr {
+    max-width: 100%;
+    margin-left: 0 !important;
   }
 }
