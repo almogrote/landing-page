@@ -1,24 +1,23 @@
 import AOS from 'aos';
-import { EmailJSResponseStatus } from 'emailjs-com';
-window.addEventListener("load", function() { AOS.init({initClassName: 'aos-init'}) });
+import emailjs from 'emailjs-com';
+window.addEventListener("load", function () { AOS.init({ initClassName: 'aos-init' }) });
 
-let myform = $("form#contact_form");
-myform.submit(function(event){
+emailjs.init("user_7YPc1Yuylkz5sWQM1uWbB");
+
+let myform = document.querySelector("form#contact_form");
+myform.addEventListener("submit", function (event) {
   event.preventDefault();
+  console.log(event.target);
 
 
-let service_id = "gmail";
-let template_id = "cursos_inscripcion";
+  let service_id = "gmail2";
+  let template_id = "template_w2zrmji";
 
-myform.find("button").text("Enviando...");
-emailjs.sendForm(service_id,template_id,myform[0])
-  .then(function() {
+  emailjs.sendForm(service_id, template_id, myform[0])
+    .then(function () {
       alert("¡Enviado! Nos pondremos en contacto contigo lo antes posible");
-    myform.find("button").text("Enviar");
-  }, function(err) {
-     alert("Upss! Hubo algún problema!\r\n Si persiste, comuníquenos este error:\n" +JASON.stringify(err));
-     myform.find("button").text("Enviar");
+    }, function (err) {
+      alert("Upss! Hubo algún problema!\r\n Si persiste, comuníquenos este error:\n" + JASON.stringify(err));
     });
   return false;
-  });
-
+});
