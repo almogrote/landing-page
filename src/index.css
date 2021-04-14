@@ -116,7 +116,7 @@ a.initial-links:hover {
 /* media queries */
 @media screen and (max-width: 768px) {
   .logo-mobile {
-    margin-top: 20% !important;
+    margin-top: 10% !important;
     margin-bottom: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -143,5 +143,57 @@ a.initial-links:hover {
   .initial-hr {
     max-width: 100%;
     margin-left: 0 !important;
+  }
+
+  .section-hr {
+    max-width: 86% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .store-presentation {
+    margin-top: 8% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .store-presentation-icon-text {
+    margin-bottom : 8% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .section-nav {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    padding: 0 !important;
+  }
+
+  .section-nav-title {
+    margin-top: 20% !important;
+  }
+
+  .image-section-nav {
+    margin-left: 0% !important;
+    padding: 7% !important;
+  }
+
+  .information-section-title {
+    margin-top: 0% !important;
+  }
+
+  .information-section {
+    margin-top: 0% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .footer-text {
+    margin: 0 !important;
+  }
+
+  .footer-logo {
+    margin: 0 !important;
+    margin-top: 5% !important;
   }
 }
