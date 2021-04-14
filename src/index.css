@@ -135,6 +135,10 @@ a.initial-links:hover {
     margin: auto !important;
   }
 
+  .arrow-div {
+    margin: 0% !important;
+  }
+
   .arrow {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -199,7 +203,7 @@ a.initial-links:hover {
   }
 
   .information-section-img {
-    margin-left: 4% !important;
+    margin-left: 2% !important;
     margin-right: 10% !important;
     padding-left: 0% !important;
   }
