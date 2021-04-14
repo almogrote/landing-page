@@ -146,7 +146,7 @@ a.initial-links:hover {
   }
 
   .section-hr {
-    max-width: 86% !important;
+    max-width: 83% !important;
     margin-left: 10% !important;
     margin-right: 10% !important;
   }
@@ -180,6 +180,7 @@ a.initial-links:hover {
 
   .information-section-title {
     margin-top: 0% !important;
+    margin-bottom: 0% !important;
   }
 
   .information-section {
@@ -187,6 +188,22 @@ a.initial-links:hover {
     margin-left: 10% !important;
     margin-right: 10% !important;
   }
+  
+  .information-section-div {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .information-section-img-mt {
+    margin-top: 0% !important;
+  }
+
+  .information-section-img {
+    margin-left: 4% !important;
+    margin-right: 10% !important;
+    padding-left: 0% !important;
+  }
+
 
   .footer-text {
     margin: 0 !important;
