@@ -63,7 +63,7 @@ a.initial-links:hover {
 
 .section-hr {
   background-color: transparent;
-  width: 93%;
+  width: 94%;
   border-bottom: 5px dotted rgb(187, 187, 187);
 }
 
@@ -106,6 +106,18 @@ a.initial-links:hover {
     url("./assets/images/contact-image.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+.a-contact {
+  color: rgb(236, 154, 0);
+}
+
+.a-contact:hover {
+  color: rgb(253, 198, 94);
+} 
+
+.button-contact {
+  color: rgb(236, 154, 0);
 }
 
 /* footer */
@@ -187,15 +199,14 @@ a.initial-links:hover {
     margin-bottom: 0% !important;
   }
 
-  .information-section {
+  .information-section-mobile {
     margin-top: 0% !important;
     margin-left: 10% !important;
     margin-right: 10% !important;
   }
-  
-  .information-section-div {
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+
+  .information-section-mobile-mt {
+    margin-top: 0 !important;
   }
 
   .information-section-img-mt {
@@ -213,8 +224,64 @@ a.initial-links:hover {
     margin: 0 !important;
   }
 
-  .footer-logo {
+  .footer-logo-esponsive {
     margin: 0 !important;
     margin-top: 5% !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .hero-body-mt {
+    padding-top: 2% !important;
+  }
+
+  .logo-div-tablet {
+    margin: auto !important;
+  }
+
+  .logo-tablet {
+    margin-bottom: 0% !important;
+  }
+
+  .arrow-div {
+    margin: 0% !important;
+  }
+
+  .arrow {
+    padding-top: 0 !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .section-hr {
+    max-width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+  }
+
+  .information-section-title {
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .information-section-img-mt {
+    margin-top: 0% !important;
+  }
+
+  .information-section-img-tablet-pl {
+    padding-left: 0 !important;
+  }
+
+  .footer-logo-responsive {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 7% !important;
+    margin-right: 7% !important;
+  }
+
+  .social-icons-tablet {
+    margin: 0 !important;
+
   }
 }
