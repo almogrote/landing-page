@@ -96,6 +96,14 @@ a.initial-links:hover {
   opacity: 1;
 }
 
+.shop-links {
+  color: grey;
+}
+
+.shop-links:hover {
+  color: #ef8700;
+}
+
 /* contact section */
 .full-screen-img-contact {
   background-image:
@@ -218,7 +226,6 @@ a.initial-links:hover {
     margin-right: 10% !important;
     padding-left: 0% !important;
   }
-
 
   .footer-text {
     margin: 0 !important;
